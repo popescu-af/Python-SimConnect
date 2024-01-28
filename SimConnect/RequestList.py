@@ -484,6 +484,10 @@ class AircraftRequests():
 
 	class __AircraftFlightInstrumentationData(RequestHelper):
 		list = {
+			"AUTOPILOT_SPEED_SLOT_INDEX": ["Autopilot speed slot index", b'AUTOPILOT SPEED SLOT INDEX', b'N/A', 'N'],
+			"AUTOPILOT_HEADING_SLOT_INDEX": ["Autopilot heading slot index", b'AUTOPILOT HEADING SLOT INDEX', b'N/A', 'N'],
+			"AUTOPILOT_ALTITUDE_SLOT_INDEX": ["Autopilot altitude slot index", b'AUTOPILOT ALTITUDE SLOT INDEX', b'N/A', 'N'],
+			"AUTOPILOT_VS_SLOT_INDEX": ["Autopilot vertical speed slot index", b'AUTOPILOT VS SLOT INDEX', b'N/A', 'N'],
 			"AIRSPEED_TRUE": ["True airspeed", b'AIRSPEED TRUE', b'Knots', 'Y'],
 			"AIRSPEED_INDICATED": ["Indicated airspeed", b'AIRSPEED INDICATED', b'Knots', 'Y'],
 			"AIRSPEED_TRUE_CALIBRATE": ["Angle of True calibration scale on airspeed indicator", b'AIRSPEED TRUE CALIBRATE', b'Degrees', 'Y'],
